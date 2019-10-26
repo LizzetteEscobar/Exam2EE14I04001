@@ -4,37 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="16sp"
+    android:layout_marginRight="16sp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-    <TextView
-        android:id="@+id/textView3"
+    <Button
+        android:id="@+id/btnagregarcontacto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="Agenda"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:layout_marginTop="16sp"
+        android:onClick="onClick"
+        android:text="Agregar Contacto" />
 
-    <LinearLayout
+    <Button
+        android:id="@+id/btnlistarcontacto"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:layout_marginTop="30dp">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:onClick="onClick"
+        android:text="Listar Contacto" />
 
-        <Button
-            android:id="@+id/btnAgragarCont"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Agregar contacto" />
-
-            <Button
-                android:id="@+id/btnListaCont"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Lista de contacto" />
-    </LinearLayout>
+    <Button
+        android:id="@+id/btnlistarordenados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:onClick="onClick"
+        android:text="Listar Contacto Ordenados" />
 
 </LinearLayout>

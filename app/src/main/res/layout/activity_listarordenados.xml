@@ -5,12 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ListaContactos">
+    tools:context=".listarordenados">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/listContactos"
+        android:id="@+id/recycler"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbars="vertical"/>
-
+        android:layout_height="match_parent" />
 </LinearLayout>
